@@ -1,0 +1,211 @@
+body{
+    background-color: #D9D9D9;
+    margin: 0;
+}
+#fundodoheader{
+    background-color: #070044;
+    display: flex;
+}
+#botaolampada{
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 10%;
+}
+#botaolampada img{
+    padding-right: 7px;
+}
+#moal{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+    display:  none;
+}
+.dark-mode{
+    background-color: rgb(34,31, 31);
+    color: white;
+}
+#titulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: "Inter", sans-serif;
+    column-gap: 120px;
+}
+#fundodoheader svg{
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 75px;
+}
+#linka{
+    text-decoration: none;
+    color: white;
+}
+#fundotitulo1{
+    margin-top: 20px;
+    background-color: #6EACDF;
+    font-size: 40px;
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 60px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+}
+#displaygrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    margin-left: 50px;
+}
+#displaygrid div{ text-align: center;
+height: 300px;
+color: white;
+font-family: "Inter", sans-serif;
+width: 350px;
+padding-top: 40px;
+}
+#fundocor{
+    height: 600px;
+    background-color: black;
+    padding-bottom: 50px;
+    justify-items: center;
+}
+#fundorodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    background-color: #955ECD;
+    height: 40px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 45px;
+    align-items: center;
+}
+@media (max-width : 500px) {
+    body{
+        background-color: #D9D9D9;
+        margin: 0;
+    }
+    #fundodoheader {
+        background-color: #070044;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        position: fixed;
+        top: 0px;
+        height: 100%;
+
+    }
+
+ i{ 
+      padding: 10px 15px;
+        position: fixed;
+        font-size: 3em;
+        right: 25%;
+        /* left: 50%; */
+        background-color: #070044;
+        color: white;
+        border-radius: 100%;
+    }
+    #botaolampada{
+        background-color: white;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        width: 100px;
+        border-radius: 10%;
+    }
+    #botaolampada img{
+        padding-right: 7px;
+    }
+    #moal{
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+        display:  none;
+    }
+    .dark-mode{
+        background-color: rgb(34,31, 31);
+        color: white;
+    }
+    #titulos{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        position: relative;
+        right: 55px;
+    }
+    #fundodoheader svg {
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 75px;
+        fill: white;
+    }
+    #linka{
+        text-decoration: none;
+        color: white;
+    }
+    #fundotitulo1{
+        margin-top: 20px;
+        background-color: #6EACDF;
+        font-size: 40px;
+        color: white;
+        padding-top: 80px;
+        text-align: center;
+        padding-bottom: 60px;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 30px;
+    }
+    #displaygrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        margin-left: 50px;
+    }
+    #displaygrid div{ text-align: center;
+    height: 300px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 350px;
+    padding-top: 40px;
+    }
+    #fundocor{
+        height: 600px;
+        background-color: black;
+        padding-bottom: 50px;
+        justify-items: center;
+    }
+    #fundorodape {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #955ECD;
+        height: 100%;
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        padding-left: 0px;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        margin-top: 51px;
+    }
+    #fundorodape div{
+        padding-top: 20px;
+    }
+}

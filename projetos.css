@@ -1,0 +1,244 @@
+#fundodoheader{
+    background-color: #070044;
+    display: flex;
+}
+#botaolampada{
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 10%;
+}
+#botaolampada img{
+    padding-right: 7px;
+}
+#moal{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+    display:  none;
+}
+body{
+    background-color: #D9D9D9;
+    margin: 0;
+}
+#fundodoheader svg{
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 75px;
+}
+#linka{
+    text-decoration: none;
+    color: white;
+}
+#titulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: "Inter", sans-serif;
+    column-gap: 120px;
+}
+#titulo{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+}
+#displaygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    row-gap: 0;
+    padding-top: 50px;
+}
+#olaf{
+    margin-left: 32%;
+}
+#linkgithub{
+    color: white;
+    text-decoration: none;
+}
+#fundogithub{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+i{
+    position: absolute;
+}
+#fundorodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    margin-top: 10px;
+    background-color: #955ECD;
+    height: 40px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+.dark-mode{
+    background-color: rgb(34,31, 31);
+    color: white;
+}
+.swiper {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    margin-top: 20px;
+  }
+.swiper-slide img{
+    /* background-size: cover;
+    width: 85%;
+    height: 100%;
+    object-fit: cover; */
+}
+
+@media (max-width : 1000px) {
+    #titulos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px ;
+    }
+}
+
+@media (max-width : 500px) {
+
+    
+
+    #botaolampada{
+        background-color: white;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        width: 100px;
+        border-radius: 10%;
+    }
+    #fundodoheader {
+        background-color: #070044;
+        display: grid;
+        width: 40%;
+        position: fixed;
+        top: 0px;
+        height: 100%;
+         z-index: 50;
+    }
+
+
+ i{  
+      padding: 10px 15px;
+        position: fixed;
+        font-size: 3em;
+        right: 25%;
+        /* left: 50%; */
+        background-color: #070044;
+        color: white;
+        border-radius: 100%;
+    }
+    #botaolampada img{
+        padding-right: 7px;
+    }
+    #moal{
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+        display:  none;
+    }
+    body{
+        background-color: #D9D9D9;
+        margin: 0;
+    }
+    #fundodoheader svg{
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 75px;
+    }
+    #linka{
+        text-decoration: none;
+        color: white;
+        
+    }
+    #titulos {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        position: relative;
+        right: 55px;
+        
+    }
+    #titulo{
+        text-align: center;
+        margin-top: 70px;
+        font-size: 60px;
+        font-family: "Inter", sans-serif;
+    }
+    #displaygrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0;
+        row-gap: 0;
+        padding-top: 50px;
+    }
+    #olaf{
+        margin-left: 32%;
+    }
+    #linkgithub{
+        color: white;
+        text-decoration: none;
+    }
+    #fundogithub{
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top: 30px;
+        height: 50px;
+        font-size: 50px;
+        padding-bottom: 20px;
+        height: 100%;
+    }
+    #fundorodape{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #955ECD;
+        height: 100%;
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        padding-left: 0px;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        margin-top: 51px;
+    }
+    .dark-mode{
+        background-color: rgb(34,31, 31);
+        color: white;
+    }
+    .swiper {
+        width: 415px;
+        height: 500px;
+        text-align: center;
+        margin-top: 20px;
+      }
+    .swiper-slide img{
+        background-size: cover;
+        width: 75%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

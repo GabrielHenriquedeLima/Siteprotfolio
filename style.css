@@ -1,0 +1,279 @@
+/* *{ box-sizing: border-box;} */
+#fotominha{border-radius: 100%;}
+body {
+    background-color: #D9D9D9;
+    margin: 0;
+}
+
+#fundodoheader {
+    background-color: #070044;
+    display: flex;
+}
+
+#botaolampada {
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 10%;
+}
+
+#botaolampada img {
+    padding-right: 7px;
+}
+
+#titulos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: "Inter", sans-serif;
+    column-gap: 120px;
+}
+
+#fundodoheader svg {
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 75px;
+}
+
+#moal {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+i{
+    position: absolute;
+}
+#fundodafoto {
+    background-color: #6EACDF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+#fundodafoto div {
+    padding-top: 5%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+#programador {}
+
+#titulo {
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+}
+
+#botaovazio {
+    height: 40px;
+    border-radius: 100%;
+    width: 40px;
+    background-color: black;
+    border: none;
+}
+
+#textowhite {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    padding-top: 40px;
+    padding-left: 30%;
+}
+
+#botaoabrir {
+    width: 100%;
+    display: none;
+    padding-left: 0px;
+}
+
+#textowhite1 {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+    padding-left: 30%;
+}
+
+#fundorodape {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    background-color: #955ECD;
+    height: 40px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 51px;
+}
+
+#linka {
+    text-decoration: none;
+    color: white;
+}
+
+.dark-mode {
+    background-color: rgb(34, 31, 31);
+    color: white;
+}
+
+@media (max-width: 500px) {
+    #fundoheader {
+        background-color: #070044;
+        display: flex;
+    }
+
+    body {
+        background-color: #D9D9D9;
+        margin: 0;
+    }
+
+    #fundodoheader {
+        background-color: #070044;
+        display: grid;
+        width: 40%;
+        position: fixed;
+        top: 0px;
+        height: 100%;
+
+    }
+
+
+ i{
+    
+      padding: 10px 15px;
+        position: fixed;
+        font-size: 3em;
+        right: 25%;
+        /* left: 50%; */
+        background-color: #070044;
+        color: white;
+        border-radius: 100%;
+    }
+
+
+    #botaolampada {
+        background-color: white;
+        margin-left: 60px;
+        height: 10vh;
+        border: none;
+        width: 100px;
+        border-radius: 10%;
+    }
+
+    #botaolampada img {
+        padding-right: 7px;
+    }
+
+    #titulos {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        position: relative;
+        right: 55px;
+    }
+
+    #fundodoheader svg {
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 75px;
+        fill: white;
+    }
+   
+    #moal {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+        display: none;
+    }
+
+    #fundodafoto {
+        background-color: #6EACDF;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #fundodafoto div {
+        padding-top: 5%;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+    }
+
+    #programador {
+        padding-left: 0px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #titulo {
+        text-align: center;
+        height: 20vh;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+    }
+
+    #botaovazio {
+        height: 40px;
+        border-radius: 100%;
+        width: 40px;
+        background-color: black;
+        border: none;
+    }
+
+    #textowhite {
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        padding-top: 40px;
+        padding-left: 20%;
+    }
+
+    #textowhite1 {
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        padding-top: 40px;
+        padding-left: 20%;
+    }
+
+    #fundorodape {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #955ECD;
+        height: 100%;
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        padding-left: 0px;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        margin-top: 51px;
+    }
+
+    #linka {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dark-mode {
+        background-color: rgb(34, 31, 31);
+        color: white;
+    }
+
+    #fundorodape div {
+        padding-top: 20px;
+    }
+}

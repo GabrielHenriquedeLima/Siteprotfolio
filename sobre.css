@@ -1,0 +1,243 @@
+
+body{
+    background-color: #D9D9D9;
+    margin: 0;
+}
+#fundodoheader{
+    background-color: #070044;
+    display: flex;
+}
+#botaolampada{
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 10%;
+}
+#botaolampada img{
+    padding-right: 7px;
+}
+#titulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: "Inter", sans-serif;
+    column-gap: 120px;
+}
+#moal{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+    display:  none;
+}
+.dark-mode{
+    background-color: rgb(34,31, 31);
+    color: white;
+}
+#fundodoheader svg{
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 75px;
+}
+#fundotitulo{
+    background-color: #6EACDF;
+    text-align: center;
+}
+#sobre{
+    font-size: 65px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#displaygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    font-family: "Inter", sans-serif;
+}
+#displaygrid svg{
+    height: 15px;
+    fill: black;
+}
+#img{
+    padding-left: 30%;
+}
+svg{height: 20px;}
+#gridrow{
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 10px;
+}
+#nome{
+    font-size: 32px;
+}
+#pr{
+    font-size: 28px;
+}
+#a{
+    font-size: 25px;
+}
+#textodepois{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+#fundorodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    background-color: #955ECD;
+    height: 40px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 45px;
+}
+#linka{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width : 500px) {
+    body{
+        background-color: #D9D9D9;
+        margin: 0;
+    }
+    #fundoheader {
+        background-color: #070044;
+        display: flex;
+    }
+    #fundodoheader {
+        background-color: #070044;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        position: fixed;
+        top: 0px;
+        height: 100%;
+
+    }
+ i{
+    
+      padding: 10px 15px;
+        position: fixed;
+        font-size: 3em;
+        right: 25%;
+        /* left: 50%; */
+        background-color: #070044;
+        color: white;
+        border-radius: 100%;
+    }
+    #botaolampada{
+        background-color: white;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        width: 100px;
+        border-radius: 10%;
+    }
+    #botaolampada img{
+        padding-right: 7px;
+    }
+    #titulos{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        position: relative;
+        right: 55px;
+    }
+    #moal{
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        position: relative;
+        z-index: 2;
+        display:  none;
+    }
+    .dark-mode{
+        background-color: rgb(34,31, 31);
+        color: white;
+    }
+    #fundodoheader svg {
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 75px;
+        fill: white;
+    }
+    #fundotitulo{
+        background-color: #6EACDF;
+        text-align: center;
+    }
+    #sobre{
+        font-size: 65px;
+        font-family: "Inter", sans-serif;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #displaygrid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding-top: 50px;
+        font-family: "Inter", sans-serif;
+    }
+    #displaygrid svg{
+        height: 15px;
+        fill: black;
+    }
+    #img{
+        padding-left: 30%;
+    }
+    svg{height: 20px;}
+    #gridrow{
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 10px;
+        padding-left: 20px;
+    }
+    #nome{
+        font-size: 22px;
+    }
+    #pr{
+        font-size: 25px;
+    }
+    #a{
+        font-size: 25px;
+    }
+    #textodepois{
+        font-size: 25px;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    #fundorodape {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #955ECD;
+        height: 100%;
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        padding-left: 0px;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        margin-top: 51px;
+    }
+    #fundorodape div{
+        padding-top: 20px;
+    }
+    #linka{
+        text-decoration: none;
+        color: white;
+    }
+ #b{
+    font-size: 20px;
+ }
+}
